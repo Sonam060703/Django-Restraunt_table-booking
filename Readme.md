@@ -16,10 +16,10 @@ A Django REST Framework (DRF) application for managing restaurant table bookings
 ```
 restaurant_booking/
 │
-├── authentication/              # JWT auth and user management
+├── authentication/              
 │   ├── management/
 │   │   └── commands/
-│   │       └── create_admin.py  # Command to create default admin
+│   │       └── create_admin.py  
 │   ├── __init__.py
 │   ├── models.py
 │   ├── serializers.py
@@ -29,7 +29,7 @@ restaurant_booking/
 │       ├── __init__.py
 │       └── test_auth.py
 │
-├── table_management/           # Table and reservation logic
+├── table_management/           
 │   ├── __init__.py
 │   ├── models.py
 │   ├── serializers.py
@@ -40,15 +40,15 @@ restaurant_booking/
 │       ├── test_tables.py
 │       └── test_reservations.py
 │
-├── restaurant_booking/         # Main project folder
+├── restaurant_booking/         
 │   ├── __init__.py
 │   ├── settings.py
 │   ├── urls.py
 │   └── asgi.py
 │
-├── conftest.py                 # Global test fixtures
-├── pytest.ini                  # Pytest configuration
-└── requirements.txt            # Project dependencies
+├── conftest.py                 
+├── pytest.ini                  
+└── requirements.txt            
 ```
 
 ## Installation
